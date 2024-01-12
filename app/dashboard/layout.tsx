@@ -3,7 +3,6 @@ import SideNav from "../ui/dashboard/sidenav";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-      
       {/* <h2>this won&apos;t be changed through dashboard segments</h2> */}
       {/* kinda static layout */}
       <div className="w-full flex-none md:w-64">
