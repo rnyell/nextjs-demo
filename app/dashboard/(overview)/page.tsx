@@ -13,12 +13,6 @@ import {
  
 // Page is an async component. This allows you to use await to fetch data.
 export default async function Page() {
-  const {
-    numberOfInvoices,
-    numberOfCustomers,
-    totalPaidInvoices,
-    totalPendingInvoices,
-  } = await fetchCardData()
 
   return (
     <main>
